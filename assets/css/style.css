@@ -17,7 +17,7 @@ h1 {
     color: #415161;
 }
 
-/* logo */
+/* logo */ 
 
 #logo {
     font-family: Lobster, Helvetica;
@@ -26,7 +26,15 @@ h1 {
     margin-left: 30px;
 }
 
-/* navigation links */ 
+/* navigation links */
+
+header {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: #f8f9fb;
+    height: 75px;
+}
 
 #menu {
     font-size: 110%;
@@ -56,4 +64,12 @@ h1 {
 
 .active {
     border-bottom: 1px solid #415161;
+}
+
+
+/* home page video */
+
+#home-page-video {
+    width: 100%;
+    overflow: hidden;
 }
