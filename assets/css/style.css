@@ -72,4 +72,45 @@ header {
 #home-page-video {
     width: 100%;
     overflow: hidden;
+    position: relative;
+    z-index: -1;
+}
+
+/* main text */
+
+#welcome-box {
+    width: 400px;
+    height: 310px;
+    position: absolute;
+    top: 250px;
+    left: 75px;
+    background-color: #f8f9fb;
+    opacity: 80%;
+    font-family: Lobster, Helvetica;
+    z-index: -1;
+}
+
+#welcome-box h2, #welcome-box h3, #welcome-box p {
+    text-align: justify;
+    padding: 10px 10px;
+}
+
+#welcome-box p {
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#welcome-box button {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: #222722;
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px auto;
+    display: block;
+    font-size: 15px;
 }
