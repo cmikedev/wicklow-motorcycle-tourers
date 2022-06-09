@@ -100,11 +100,11 @@ header {
     font-weight: 400;
 }
 
-#welcome-box a {
+/*#welcome-box a {
     z-index: 9999999;
-}
+}*/
 
-#welcome-box button {
+/*#welcome-box button {
     font-family: Helvetica, sans-serif;
     font-weight: 400;
     background-color: #222722;
@@ -116,4 +116,27 @@ header {
     margin: 15px auto;
     display: block;
     font-size: 15px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}*/
+
+#rides-page-link {
+    margin: 15px auto;
+    padding: 10px;
+    width: 33%;
+    display: block;
+    text-align: center;
+    font-size: 110%;
+    border: 2px solid black;
+    background-color: #222722;
+    color: #f8f9fb;
+    text-decoration: none;
+    font-family: Lobster, Helvetica;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#rides-page-link:hover {
+    background-color: white;
+    color: #415161;
 }
