@@ -80,25 +80,28 @@ header {
 
 #welcome-box {
     width: 400px;
-    height: 310px;
+    height: 350px;
     position: absolute;
     top: 250px;
     left: 75px;
     background-color: #f8f9fb;
     opacity: 80%;
     font-family: Lobster, Helvetica;
-    z-index: -1;
 }
 
 #welcome-box h2, #welcome-box h3, #welcome-box p {
     text-align: justify;
-    padding: 10px 10px;
+    padding: 15px 15px;
 }
 
 #welcome-box p {
     font-family: Helvetica, sans-serif;
     font-style: italic;
     font-weight: 400;
+}
+
+#welcome-box a {
+    z-index: 9999999;
 }
 
 #welcome-box button {
