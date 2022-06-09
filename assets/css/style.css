@@ -34,6 +34,7 @@ header {
     width: 100%;
     background-color: #f8f9fb;
     height: 75px;
+    z-index: 9999999;
 }
 
 #menu {
@@ -99,26 +100,6 @@ header {
     font-style: italic;
     font-weight: 400;
 }
-
-/*#welcome-box a {
-    z-index: 9999999;
-}*/
-
-/*#welcome-box button {
-    font-family: Helvetica, sans-serif;
-    font-weight: 400;
-    background-color: #222722;
-    border: none;
-    color: white;
-    padding: 15px 35px;
-    text-align: center;
-    text-decoration: none;
-    margin: 15px auto;
-    display: block;
-    font-size: 15px;
-    cursor: pointer;
-    transition-duration: 0.5s;
-}*/
 
 #rides-page-link {
     margin: 15px auto;
