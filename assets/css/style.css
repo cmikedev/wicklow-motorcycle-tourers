@@ -407,11 +407,24 @@ body.rides {
   }
 
   #thank-you-text a {
-    font-family: Lobster, Helvetica, sans-serif;
+    margin: 15px auto;
+    padding: 10px;
+    width: 90px;
     display: block;
-    align-items: center;
-    justify-content: center;
-    padding-top: 30px;
-    border: 1px solid #415161;
-    width: 100px;
+    text-align: center;
+    font-size: 110%;
+    border: 2px solid black;
+    background-color: #222722;
+    color: #f8f9fb;
+    text-decoration: none;
+    font-family: Lobster, Helvetica;
+    cursor: pointer;
+    transition-duration: 0.5s;
+  }
+
+  #thank-you-text a:hover {
+    color: #415161;
+    background-color: white;
+    border: 2px solid black;
+    
   }
