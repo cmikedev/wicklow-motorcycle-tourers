@@ -343,6 +343,10 @@ body.rides {
     height:30px;
 }
 
+.input:hover {
+    border: 2px solid black;
+}
+
 .submit {
     font-size: 120%;
     font-family: Lobster, Helvetica, sans-serif;
