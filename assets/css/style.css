@@ -356,9 +356,62 @@ body.rides {
     width: 100%;
     height:30px;
     cursor: pointer;
+    transition-duration: 0.5s;
 }
 
 .submit:hover {
     background-color: white;
     color: #415161;
 }
+
+/* thank you page */
+
+#thank-you a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+}
+
+#thank-you-container {
+    background-color: white;
+}
+
+#thank-you-image {
+    top: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding: 30px;
+  }
+
+  #thank-you-text h2 {
+    font-family: Lobster, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #thank-you-text h5 {
+    font-family: Lobster, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  #thank-you-text a {
+    font-family: Lobster, Helvetica, sans-serif;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    border: 1px solid #415161;
+    width: 100px;
+  }
