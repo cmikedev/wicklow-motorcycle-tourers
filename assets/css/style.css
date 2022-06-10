@@ -137,7 +137,7 @@ body.rides li.rides a {
 /* footer */
 
 footer {
-    height: 100px;
+    height: 150px;
     background-color: #f8f9fb;
 }
 
@@ -182,17 +182,51 @@ body.rides {
     max-width: 100%;
 }
 
+/* rides box */
+
+#rides-box {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 250px;
+    left: 75px;
+    background-color: #f8f9fb;
+    opacity: 80%;
+    font-family: Lobster, Helvetica;
+}
+
+#rides-box h1, #rides-box p {
+    text-align: justify;
+    padding: 15px 15px;
+}
+
+#rides-box p {
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#sign-up-link {
+    font-size: 120%;
+    font-family: Lobster, Helvetica, sans-serif;
+    color: #415161;
+}
+
+#sign-up-link:hover {
+    color: black;
+}
+
 /* about rides */
 
-#about-rides {
+/* #about-rides {
     height: 300px;
     width: 1200px;
     color: #415161;
     margin: 10px;
     padding: 30px
-}
+} */
 
-#about-rides h1{
+/* #about-rides h1{
     font-family: Lobster, Helvetica, sans-serif;
     font-size: 200%;
 }
@@ -201,7 +235,7 @@ body.rides {
     font-style: italic;
     padding-top: 20px;
     text-align: left;
-}
+} */
 
 /* location and google map */
 
