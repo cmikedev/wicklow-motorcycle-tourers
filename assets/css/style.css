@@ -166,8 +166,15 @@ footer p {
 
 /* rides page video */
 
-#rides-page-video {
+#rides-page-video-container {
     overflow: hidden;
+    top: 0;
+    bottom: 0;
+    width: auto;
+}
+
+#rides-page-video {
+    max-width: 100%;
 }
 
 /* rides page text */
@@ -183,4 +190,14 @@ footer p {
     font-family: Lobster, Helvetica;
     font-size: 120%;
     padding: 20px;
+}
+
+/* location and google map */
+
+#location {
+    display: inline;
+}
+
+#location h2 {
+    font-family: Lobster, Helvetica;
 }
