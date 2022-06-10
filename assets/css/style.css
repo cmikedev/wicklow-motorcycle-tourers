@@ -192,17 +192,55 @@ body.rides {
 }
 
 #about-rides h1{
-    font-family: Lobster, Helvetica;
+    font-family: Lobster, Helvetica, sans-serif;
     font-size: 120%;
     padding: 20px;
 }
 
 /* location and google map */
 
+#location-outer {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
 #location {
     float: left;
     margin: 10px;
-    padding: 30px;
-    font-family: Lobster, Helvetica;
+    padding: 30px
 }
 
+#map {
+    float: right;
+    margin: 10px;
+    padding: 30px;
+}
+
+#location h2 {
+    font-size: 150%;
+    font-family: Lobster, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+#location h4 {
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+/* ride times table */
+
+#ride-times {
+    padding-top: 20px;
+}
+
+.day {
+    font-weight: 600;
+}
+
+.time {
+    font-weight: 400;
+    padding: 20px;
+}
