@@ -138,6 +138,7 @@ body.rides li.rides a {
 
 footer {
     height: 100px;
+    background-color: #f8f9fb;
 }
 
 #social-media {
@@ -164,6 +165,10 @@ footer p {
 
 /* rides page */
 
+body.rides {
+    background-color: white;
+}
+
 /* rides page video */
 
 #rides-page-video-container {
@@ -180,7 +185,7 @@ footer p {
 /* rides page text */
 
 #about-rides {
-    height: 400px;
+    height: 150px;
     width: 100%;
     color: #415161;
     text-align: justify;
@@ -195,9 +200,9 @@ footer p {
 /* location and google map */
 
 #location {
-    display: inline;
-}
-
-#location h2 {
+    float: left;
+    margin: 10px;
+    padding: 30px;
     font-family: Lobster, Helvetica;
 }
+
