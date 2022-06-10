@@ -67,6 +67,9 @@ body.rides li.rides a {
     border-bottom: 1px solid #415161;
 }
 
+body.sign-up li.sign-up a {
+    border-bottom: 1px solid #415161;
+}
 
 /* home page video */
 
@@ -283,4 +286,36 @@ body.rides {
 .time {
     font-weight: 400;
     padding: 20px;
+}
+
+/* sign-up page */
+
+/* sign-up video */
+
+#sign-up-video-container {
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    width: auto;
+}
+
+#sign-up-video {
+    max-width: 100%;
+}
+
+#sign-up-box {
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 250px;
+    left: 75px;
+    background-color: #f8f9fb;
+    opacity: 80%;
+    font-family: Lobster, Helvetica;
+}
+
+/* sign-up form */
+
+br {
+    padding: 25px;
 }
