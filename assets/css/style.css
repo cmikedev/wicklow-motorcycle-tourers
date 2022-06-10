@@ -70,12 +70,24 @@ body.rides li.rides a {
 
 /* home page video */
 
+#home-page-video-container {
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    width: auto;
+}
+
 #home-page-video {
-    width: 100%;
+    max-width: 100%;
+}
+
+/* #home-page-video {
     overflow: hidden;
     position: relative;
     z-index: -1;
-}
+} */
 
 /* main text */
 
@@ -148,4 +160,27 @@ footer p {
     display: block;
     text-align: center;
     padding-bottom: 30px;
+}
+
+/* rides page */
+
+/* rides page video */
+
+#rides-page-video {
+    overflow: hidden;
+}
+
+/* rides page text */
+
+#about-rides {
+    height: 400px;
+    width: 100%;
+    color: #415161;
+    text-align: justify;
+}
+
+#about-rides h1{
+    font-family: Lobster, Helvetica;
+    font-size: 120%;
+    padding: 20px;
 }
