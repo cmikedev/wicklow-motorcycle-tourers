@@ -182,19 +182,25 @@ body.rides {
     max-width: 100%;
 }
 
-/* rides page text */
+/* about rides */
 
 #about-rides {
-    height: 150px;
-    width: 100%;
+    height: 300px;
+    width: 1200px;
     color: #415161;
-    text-align: justify;
+    margin: 10px;
+    padding: 30px
 }
 
 #about-rides h1{
     font-family: Lobster, Helvetica, sans-serif;
-    font-size: 120%;
-    padding: 20px;
+    font-size: 200%;
+}
+
+#about-rides p {
+    font-style: italic;
+    padding-top: 20px;
+    text-align: left;
 }
 
 /* location and google map */
