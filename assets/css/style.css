@@ -110,10 +110,12 @@ body.sign-up li.sign-up a {
 } */
 
 #welcome-box {
+    top: 33%;
+    left: 17%;
+    width: 25%;
+    height: 50%;
     padding: 20px;
     position: absolute;
-    top: 250px;
-    left: 75px;
     background-color: #f8f9fb;
     opacity: 80%;
     font-family: Lobster, Helvetica;
