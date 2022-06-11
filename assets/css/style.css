@@ -180,6 +180,8 @@ body.rides {
 
 #rides-page-video-container {
     overflow: hidden;
+    position: absolute;
+    z-index: -1;
     top: 0;
     bottom: 0;
     width: auto;
@@ -277,6 +279,8 @@ body.rides {
 
 #sign-up-video-container {
     overflow: hidden;
+    position: absolute;
+    z-index: -1;
     top: 0;
     bottom: 0;
     width: auto;
@@ -429,11 +433,23 @@ body.rides {
 /* for screen sizes 950px wide or less */
 
 @media screen and (max-width: 950px) {
+    header {
+        height: 125px;
+    }
+    
     #menu {
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+    }
+
+    #welcome-box {
+        top: 200px;
+        width: 40%;
+        height: 300px;
+        margin: 0 auto;
+        font-size: 60%;
     }
 }
