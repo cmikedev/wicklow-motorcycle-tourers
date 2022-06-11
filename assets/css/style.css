@@ -98,9 +98,19 @@ body.sign-up li.sign-up a {
 
 /* main text */
 
-#welcome-box {
+/* #welcome-box {
     width: 400px;
     height: 350px;
+    position: absolute;
+    top: 250px;
+    left: 75px;
+    background-color: #f8f9fb;
+    opacity: 80%;
+    font-family: Lobster, Helvetica;
+} */
+
+#welcome-box-text {
+    padding: 20px;
     position: absolute;
     top: 250px;
     left: 75px;
@@ -422,9 +432,11 @@ body.rides {
 /* for screen sizes 1200px wide or less */
 
 @media screen and (max-width: 1200px) {
-    #welcome-box {
+    #welcome-box-text {
+        top: 33%;
+        left: 33%;
         width: 40%;
-        height: 1200px
+        height: 50%;
         margin: 0 auto;
         font-size: 80%;
     }
@@ -445,10 +457,10 @@ body.rides {
         line-height: 25px;
     }
 
-    #welcome-box {
-        top: 200px;
+    #welcome-box-text {
+        top: 150px;
         width: 40%;
-        height: 300px;
+        height: 50%;
         margin: 0 auto;
         font-size: 60%;
     }
