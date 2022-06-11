@@ -109,7 +109,7 @@ body.sign-up li.sign-up a {
     font-family: Lobster, Helvetica;
 } */
 
-#welcome-box-text {
+#welcome-box {
     padding: 20px;
     position: absolute;
     top: 250px;
@@ -432,10 +432,10 @@ body.rides {
 /* for screen sizes 1200px wide or less */
 
 @media screen and (max-width: 1200px) {
-    #welcome-box-text {
+    #welcome-box {
         top: 33%;
         left: 33%;
-        width: 40%;
+        width: 33%;
         height: 50%;
         margin: 0 auto;
         font-size: 80%;
@@ -457,11 +457,23 @@ body.rides {
         line-height: 25px;
     }
 
-    #welcome-box-text {
-        top: 150px;
-        width: 40%;
-        height: 50%;
+    #welcome-box {
+        top: 33%;
+        width: 33%;
+        height: 45%;
         margin: 0 auto;
         font-size: 60%;
+    }
+}
+
+/* for screen sizes 750px wide or less */
+
+@media screen and (max-width: 750px) {
+    #welcome-box {
+        top: 33%;
+        width: 33%;
+        height: 40%;
+        margin: 0 auto;
+        font-size: 50%;
     }
 }
