@@ -479,3 +479,63 @@ body.rides {
         font-size: 50%;
     }
 }
+
+/* for screen sizes 450px wide or less */
+
+@media screen and (max-width: 450px) {
+    #welcome-box {
+        font-size: 70%;
+        position: fixed;
+        top: 20%;
+        left: 5%;
+        width: 80%;
+        height: 22%;
+        font-size: 70%;
+    }
+
+    #welcome-box h2, #welcome-box h3, #welcome-box p {
+        padding: 1%;
+    }
+
+    #rides-page-link {
+        margin: 5px auto;
+        padding: 2px;
+        width: 33%;
+    }
+
+    header {
+        height: 50px;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 65px;
+        margin-bottom: 20px;
+        font-size: 75%;
+    }
+
+    #logo {
+        font-size: 150%;
+    }
+
+    #footer {
+        height: 50px;
+    }
+
+    #social-media i {
+        margin: 5px;
+        padding: 2%;
+        font-size: 90%;
+        color: #415161;
+    }
+    
+    footer p {
+        text-align: justify;
+        display: block;
+        text-align: center;
+        padding-bottom: 5px;
+        font-size: 60%;
+    }
+
+}
