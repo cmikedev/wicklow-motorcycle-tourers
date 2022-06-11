@@ -21,6 +21,8 @@ hr {
     padding: 25px;
 }
 
+/* Home Page */
+
 /* logo */ 
 
 #logo {
@@ -67,6 +69,10 @@ header {
     border-bottom: 1px solid #415161;
 }
 
+body.home li.home a {
+    border-bottom: 1px solid #415161;
+}
+
 body.rides li.rides a {
     border-bottom: 1px solid #415161;
 }
@@ -89,12 +95,6 @@ body.sign-up li.sign-up a {
 #home-page-video {
     max-width: 100%;
 }
-
-/* #home-page-video {
-    overflow: hidden;
-    position: relative;
-    z-index: -1;
-} */
 
 /* main text */
 
@@ -170,7 +170,7 @@ footer p {
     padding-bottom: 30px;
 }
 
-/* rides page */
+/* Rides Page */
 
 body.rides {
     background-color: white;
@@ -223,27 +223,6 @@ body.rides {
     color: black;
 }
 
-/* about rides */
-
-/* #about-rides {
-    height: 300px;
-    width: 1200px;
-    color: #415161;
-    margin: 10px;
-    padding: 30px
-} */
-
-/* #about-rides h1{
-    font-family: Lobster, Helvetica, sans-serif;
-    font-size: 200%;
-}
-
-#about-rides p {
-    font-style: italic;
-    padding-top: 20px;
-    text-align: left;
-} */
-
 /* location and google map */
 
 #location-outer {
@@ -292,7 +271,7 @@ body.rides {
     padding: 20px;
 }
 
-/* sign-up page */
+/* Sign-up Page */
 
 /* sign-up video */
 
@@ -362,15 +341,15 @@ body.rides {
     font-family: Lobster, Helvetica;
     cursor: pointer;
     transition-duration: 0.5s;
-  }
+}
 
-  .form a:hover {
+.form a:hover {
     color: #415161;
     background-color: white;
     border: 2px solid black;
-  }
+}
 
-/* thank you page */
+/* Thank You Page */
 
 #thank-you a {
     display: flex;
@@ -393,26 +372,26 @@ body.rides {
     width: 300px;
     border-radius: 50%;
     padding: 30px;
-  }
+}
 
-  #thank-you-text h2 {
+#thank-you-text h2 {
     font-family: Lobster, Helvetica, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-  }
+}
 
-  #thank-you-text h5 {
+#thank-you-text h5 {
     font-family: Lobster, Helvetica, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     padding-top: 30px;
-  }
+}
 
-  #thank-you-text a {
+#thank-you-text a {
     margin: 15px auto;
     padding: 10px;
     width: 90px;
@@ -426,10 +405,35 @@ body.rides {
     font-family: Lobster, Helvetica;
     cursor: pointer;
     transition-duration: 0.5s;
-  }
+}
 
-  #thank-you-text a:hover {
+#thank-you-text a:hover {
     color: #415161;
     background-color: white;
     border: 2px solid black;
-  }
+}
+
+/* Media Queries */
+
+/* for screen sizes 1200px wide or less */
+
+@media screen and (max-width: 1200px) {
+    #welcome-box {
+        width: 40%;
+        height: 1200px
+        margin: 0 auto;
+        font-size: 80%;
+    }
+}
+
+/* for screen sizes 950px wide or less */
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
