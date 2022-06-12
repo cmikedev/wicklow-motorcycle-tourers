@@ -104,7 +104,7 @@ body.sign-up li.sign-up a {
 
 #welcome-text {
     display: inline-block;
-    padding: 2%;
+    padding: 4%;
 }
 
 #welcome-text h2, #welcome-text h3 {
@@ -112,7 +112,7 @@ body.sign-up li.sign-up a {
 }
 
 #welcome-text h2, #welcome-text h3, #welcome-text p {
-    padding: 2%;
+    padding: 4%;
 }
 
 #welcome-text p {
@@ -173,6 +173,60 @@ footer p {
     display: block;
     text-align: center;
     padding-bottom: 30px;
+}
+
+/* RIDES PAGE */
+
+/* rides box container */
+
+#rides-box-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+#rides-box {
+    left: 10%;
+    width: 40%;
+    height: auto;
+    background-color: #f8f9fb;
+    position: absolute;
+    opacity: 80%;
+}
+
+#rides-box-text {
+    display: inline-block;
+    padding: 2%;
+}
+
+#rides-box-text h1 {
+    font-family: Lobster, Helvetica, sans-serif;
+}
+
+#rides-box-text p {
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#rides-box-text h1, #rides-box-text p {
+    padding: 4%;
+}
+
+#sign-up-link {
+    font-size: 120%;
+    font-family: Lobster, Helvetica, sans-serif;
+    color: #415161;
+}
+
+#sign-up-link:hover {
+    color: black;
 }
 
 /* MEDIA QUERIES */
