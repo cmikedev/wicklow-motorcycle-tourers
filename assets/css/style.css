@@ -92,7 +92,7 @@ body.sign-up li.sign-up a {
     justify-content: center;
 }
 
-#welcome-box {
+.text-box {
     left: 10%;
     width: 40%;
     height: auto;
@@ -101,20 +101,20 @@ body.sign-up li.sign-up a {
     opacity: 80%;
 }
 
-#welcome-text {
+.main-text {
     display: inline-block;
     padding: 4%;
 }
 
-#welcome-text h2, #welcome-text h3 {
+.main-text h2, .main-text h3 {
     font-family: Lobster, Helvetica, sans-serif;
 }
 
-#welcome-text h2, #welcome-text h3, #welcome-text p {
+.main-text h2, .main-text h3, .main-text p {
     padding: 4%;
 }
 
-#welcome-text p {
+.main-text p {
     font-family: Helvetica, sans-serif;
     font-style: italic;
     font-weight: 400;
@@ -180,41 +180,12 @@ footer p {
 
 #rides-box-container {
     position: relative;
-    width: 100%;
+    max-width: 100%;
     overflow: hidden;
-
     text-align: left;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#rides-box {
-    left: 10%;
-    width: 40%;
-    height: auto;
-    background-color: #f8f9fb;
-    position: absolute;
-    opacity: 80%;
-}
-
-#rides-box-text {
-    display: inline-block;
-    padding: 2%;
-}
-
-#rides-box-text h1 {
-    font-family: Lobster, Helvetica, sans-serif;
-}
-
-#rides-box-text p {
-    font-family: Helvetica, sans-serif;
-    font-style: italic;
-    font-weight: 400;
-}
-
-#rides-box-text h1, #rides-box-text p {
-    padding: 4%;
 }
 
 #sign-up-link {
@@ -227,7 +198,76 @@ footer p {
     color: black;
 }
 
+/* location container */
+
+#location-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    text-align: left;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+/* location */
+
+#location {
+    float: left;
+    margin-left: 30px;
+    padding-top: 4%;
+}
+
+#location h2 {
+    font-size: 150%;
+    font-family: Lobster, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+#location h4 {
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    padding-top: 4%;
+}
+
+#ride-times {
+    padding-top: 20px;
+}
+
+.day {
+    font-weight: 600;
+}
+
+.time {
+    font-weight: 400;
+    padding: 20px;
+}
+
+/* map */
+
+#map {
+    float: right;
+    margin-right: 30px;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
 /* MEDIA QUERIES */
+
+/* for screen sizes 1200px wide or less */
+
+@media screen and (max-width: 1200px) {
+    #ride-times {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #map {
+        float: left;
+        max-width: 100%;
+        height: auto;
+    }
+}
 
 /* for screen sizes 950px wide or less */
 
@@ -236,7 +276,7 @@ footer p {
         height: 150px;
     }
 
-    #welcome-box {
+    .text-box {
         width: 60%;
     }
 }
@@ -260,7 +300,7 @@ footer p {
         line-height: 25px;
     }
 
-    #welcome-box {
+    .text-box {
         width: 80%;
     }
 }
@@ -286,7 +326,7 @@ footer p {
         line-height: 25px;
     }
 
-    #welcome-box {
+    .text-box {
         width: 80%;
     }
 
