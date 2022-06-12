@@ -30,7 +30,7 @@ header {
 /* logo */ 
 
 #logo {
-    font-family: Lobster, Helvetica;
+    font-family: Lobster, Helvetica, sans-serif;
     float: left;
     font-size: 250%;
     margin-left: 30px;
@@ -64,6 +64,17 @@ header {
     border-bottom: 1px solid #415161;
 }
 
+body.home li.home a {
+    border-bottom: 1px solid #415161;
+}
+
+body.rides li.rides a {
+    border-bottom: 1px solid #415161;
+}
+
+body.sign-up li.sign-up a {
+    border-bottom: 1px solid #415161;
+}
 
 /* HOME PAGE */
 
@@ -81,7 +92,7 @@ header {
 }
 
 #welcome-box {
-    left: 15%;
+    left: 10%;
     width: 40%;
     height: auto;
     background-color: #f8f9fb;
@@ -92,6 +103,10 @@ header {
 #welcome-text {
     display: inline-block;
     padding: 2%;
+}
+
+#welcome-text h2, #welcome-text h3 {
+    font-family: Lobster, Helvetica, sans-serif;
 }
 
 #welcome-text h2, #welcome-text h3, #welcome-text p {
@@ -123,4 +138,33 @@ header {
 #rides-page-link:hover {
     background-color: white;
     color: #415161;
+}
+
+/* FOOTER */
+
+footer {
+    height: auto;
+    background-color: #f8f9fb;
+}
+
+#social-media {
+    text-align: center;
+}
+
+#social-media li {
+    display: inline;
+}
+
+#social-media i {
+    margin: 10px;
+    padding: 20px;
+    font-size: 200%;
+    color: #415161;
+}
+
+footer p {
+    text-align: justify;
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
 }
