@@ -164,6 +164,10 @@ footer {
     color: #415161;
 }
 
+#social-media a {
+    text-decoration: none;
+}
+
 footer p {
     text-align: justify;
     display: block;
@@ -173,9 +177,46 @@ footer p {
 
 /* MEDIA QUERIES */
 
-/* for screen sizes 400px wide or less */
+/* for screen sizes 950px wide or less */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 950px) {
+    header{
+        height: 150px;
+    }
+
+    #welcome-box {
+        width: 60%;
+    }
+}
+
+/* for screen sizes 490px wide or less */
+
+@media screen and (max-width: 490px) {
+    header{
+        height: auto;
+    }
+
+    #logo {
+        font-size: 200%;
+    }
+
+    #menu {
+        float: left;
+        margin-left: 35px;
+        font-size: 90%;
+        display: flex;
+        line-height: 25px;
+    }
+
+    #welcome-box {
+        width: 80%;
+    }
+}
+
+
+/* for screen sizes 450px wide or less */
+
+@media screen and (max-width: 450px) {
     header{
         height: 200px;
     }
@@ -192,10 +233,6 @@ footer p {
         flex-direction: column;
         line-height: 25px;
     }
-
-    /* #menu, #logo {
-        line-height: 50px;
-    } */
 
     #welcome-box {
         width: 80%;
