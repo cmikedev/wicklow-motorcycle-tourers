@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Joan&family=Lato:wght@300&family=Lobster&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    color: #415161;
+    background-color: #f8f9fb;
+}
+
+h1 {
+    color: #415161;
+}
+
+hr {
+    padding: 25px;
+}
+
+/* Home Page */
+
+/* logo */ 
+
+#logo {
+    font-family: Lobster, Helvetica;
+    float: left;
+    font-size: 250%;
+    margin-left: 30px;
+}
+
+/* navigation links */
+
+header {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: #f8f9fb;
+    height: 75px;
+    z-index: 9999999;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #415161;
+}
+
+body.home li.home a {
+    border-bottom: 1px solid #415161;
+}
+
+body.rides li.rides a {
+    border-bottom: 1px solid #415161;
+}
+
+body.sign-up li.sign-up a {
+    border-bottom: 1px solid #415161;
+}
+
+/* home page video */
+
+#home-page-video-container {
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    width: auto;
+}
+
+#home-page-video {
+    max-width: 100%;
+}
+
+/* main text */
+
+/* #welcome-box {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 250px;
+    left: 75px;
+    background-color: #f8f9fb;
+    opacity: 80%;
+    font-family: Lobster, Helvetica;
+} */
+
+#welcome-box {
+    top: 33%;
+    left: 17%;
+    width: 25%;
+    height: 50%;
+    padding: 20px;
+    position: absolute;
+    background-color: #f8f9fb;
+    opacity: 80%;
+    font-family: Lobster, Helvetica;
+}
+
+#welcome-box h2, #welcome-box h3, #welcome-box p {
+    text-align: justify;
+    padding: 15px 15px;
+}
+
+#welcome-box p {
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#rides-page-link {
+    margin: 15px auto;
+    padding: 10px;
+    width: 33%;
+    display: block;
+    text-align: center;
+    font-size: 110%;
+    border: 2px solid black;
+    background-color: #222722;
+    color: #f8f9fb;
+    text-decoration: none;
+    font-family: Lobster, Helvetica;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#rides-page-link:hover {
+    background-color: white;
+    color: #415161;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+    background-color: #f8f9fb;
+}
+
+#social-media {
+    text-align: center;
+}
+
+#social-media li {
+    display: inline;
+}
+
+#social-media i {
+    margin: 10px;
+    padding: 20px;
+    font-size: 200%;
+    color: #415161;
+}
+
+footer p {
+    text-align: justify;
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* Rides Page */
+
+body.rides {
+    background-color: white;
+}
+
+/* rides page video */
+
+#rides-page-video-container {
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    width: auto;
+}
+
+#rides-page-video {
+    max-width: 100%;
+}
+
+/* rides box */
+
+#rides-box {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 250px;
+    left: 75px;
+    background-color: #f8f9fb;
+    opacity: 80%;
+    font-family: Lobster, Helvetica;
+}
+
+#rides-box h1, #rides-box p {
+    text-align: justify;
+    padding: 15px 15px;
+}
+
+#rides-box p {
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#sign-up-link {
+    font-size: 120%;
+    font-family: Lobster, Helvetica, sans-serif;
+    color: #415161;
+}
+
+#sign-up-link:hover {
+    color: black;
+}
+
+/* location and google map */
+
+#location-outer {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#location {
+    float: left;
+    margin: 10px;
+    padding: 30px
+}
+
+#map {
+    float: right;
+    margin: 10px;
+    padding: 30px;
+}
+
+#location h2 {
+    font-size: 150%;
+    font-family: Lobster, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+#location h4 {
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    padding-top: 20px;
+}
+
+/* ride times table */
+
+#ride-times {
+    padding-top: 20px;
+}
+
+.day {
+    font-weight: 600;
+}
+
+.time {
+    font-weight: 400;
+    padding: 20px;
+}
+
+/* Sign-up Page */
+
+/* sign-up video */
+
+#sign-up-video-container {
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    width: auto;
+}
+
+#sign-up-video {
+    max-width: 100%;
+}
+
+#sign-up-box {
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 150px;
+    left: 75px;
+    background-color: #f8f9fb;
+    opacity: 80%;
+    padding: 20px;
+    font-family: Lobster, Helvetica;
+}
+
+#sign-up-box h4 {
+    padding: 25px 0px;
+}
+
+/* sign-up form */
+
+.form {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.label {
+    font-size: 120%;
+}
+
+.input {
+    border: 1px solid #415161;
+    margin-top: 10px;
+    width: 100%;
+    height:30px;
+}
+
+.input:hover {
+    border: 2px solid black;
+}
+
+.form a {
+    margin: 15px auto;
+    padding: 10px;
+    height: 20px;
+    width: 90px;
+    display: block;
+    text-align: center;
+    font-size: 110%;
+    border: 2px solid black;
+    background-color: #222722;
+    text-decoration: none;
+    color: #f8f9fb;
+    font-family: Lobster, Helvetica;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.form a:hover {
+    color: #415161;
+    background-color: white;
+    border: 2px solid black;
+}
+
+/* Thank You Page */
+
+#thank-you a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+}
+
+#thank-you-container {
+    background-color: white;
+}
+
+#thank-you-image {
+    top: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+#thank-you-text h2 {
+    font-family: Lobster, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#thank-you-text h5 {
+    font-family: Lobster, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+}
+
+#thank-you-text a {
+    margin: 15px auto;
+    padding: 10px;
+    width: 90px;
+    display: block;
+    text-align: center;
+    font-size: 110%;
+    border: 2px solid black;
+    background-color: #222722;
+    color: #f8f9fb;
+    text-decoration: none;
+    font-family: Lobster, Helvetica;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#thank-you-text a:hover {
+    color: #415161;
+    background-color: white;
+    border: 2px solid black;
+}
+
+/* Media Queries */
+
+/* for screen sizes 1200px wide or less */
+
+@media screen and (max-width: 1200px) {
+    #welcome-box {
+        top: 33%;
+        left: 33%;
+        width: 33%;
+        height: 50%;
+        margin: 0 auto;
+        font-size: 80%;
+    }
+}
+
+/* for screen sizes 950px wide or less */
+
+@media screen and (max-width: 950px) {
+    header {
+        height: 125px;
+    }
+    
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #welcome-box {
+        top: 33%;
+        width: 33%;
+        height: 45%;
+        margin: 0 auto;
+        font-size: 60%;
+    }
+}
+
+/* for screen sizes 750px wide or less */
+
+@media screen and (max-width: 750px) {
+    #welcome-box {
+        top: 33%;
+        width: 33%;
+        height: 40%;
+        margin: 0 auto;
+        font-size: 50%;
+    }
+}
+
+/* for screen sizes 450px wide or less */
+
+@media screen and (max-width: 450px) {
+    #welcome-box {
+        font-size: 70%;
+        position: fixed;
+        top: 20%;
+        left: 5%;
+        width: 80%;
+        height: 22%;
+        font-size: 70%;
+    }
+
+    #welcome-box h2, #welcome-box h3, #welcome-box p {
+        padding: 1%;
+    }
+
+    #rides-page-link {
+        margin: 5px auto;
+        padding: 2px;
+        width: 33%;
+    }
+
+    header {
+        height: 50px;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 65px;
+        margin-bottom: 20px;
+        font-size: 75%;
+    }
+
+    #logo {
+        font-size: 150%;
+    }
+
+    #footer {
+        height: 50px;
+    }
+
+    #social-media i {
+        margin: 5px;
+        padding: 2%;
+        font-size: 90%;
+        color: #415161;
+    }
+    
+    footer p {
+        text-align: justify;
+        display: block;
+        text-align: center;
+        padding-bottom: 5px;
+        font-size: 60%;
+    }
+
+}
