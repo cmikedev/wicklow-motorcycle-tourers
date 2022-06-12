@@ -73,6 +73,10 @@ body.rides li.rides a {
     border-bottom: 1px solid #415161;
 }
 
+body.bike-shed li.bike-shed a {
+    border-bottom: 1px solid #415161;
+}
+
 body.sign-up li.sign-up a {
     border-bottom: 1px solid #415161;
 }
@@ -106,7 +110,7 @@ body.sign-up li.sign-up a {
     padding: 4%;
 }
 
-.main-text h2, .main-text h3 {
+.main-text h1, .main-text h2, .main-text h3 {
     font-family: Lobster, Helvetica, sans-serif;
 }
 
@@ -120,7 +124,7 @@ body.sign-up li.sign-up a {
     font-weight: 400;
 }
 
-#rides-page-link {
+.promoted-page-link {
     margin: 15px auto;
     padding: 10px;
     width: 33%;
@@ -136,7 +140,7 @@ body.sign-up li.sign-up a {
     transition-duration: 0.5s;
 }
 
-#rides-page-link:hover {
+.promoted-page-link:hover {
     background-color: white;
     color: #415161;
 }
@@ -251,6 +255,18 @@ footer p {
     padding-top: 4%;
     padding-bottom: 2%;
     overflow: hidden;
+}
+
+/* BIKE SHED PAGE */
+
+#bike-shed-box-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* MEDIA QUERIES */
