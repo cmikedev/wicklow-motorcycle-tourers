@@ -250,13 +250,14 @@ footer p {
     margin-right: 30px;
     padding-top: 4%;
     padding-bottom: 2%;
+    overflow: hidden;
 }
 
 /* MEDIA QUERIES */
 
-/* for screen sizes 1200px wide or less */
+/* for screen sizes 1280px wide or less */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
     #ride-times {
         max-width: 100%;
         height: auto;
@@ -264,6 +265,7 @@ footer p {
 
     #map {
         float: left;
+        margin-left: 30px;
         max-width: 100%;
         height: auto;
     }
@@ -278,6 +280,16 @@ footer p {
 
     .text-box {
         width: 60%;
+    }
+
+    #ride-times {
+        max-width: 80%;
+        height: auto;
+    }
+
+    #map {
+        max-width: 80%;
+        height: auto;
     }
 }
 
@@ -324,10 +336,6 @@ footer p {
         display: flex;
         flex-direction: column;
         line-height: 25px;
-    }
-
-    .text-box {
-        width: 80%;
     }
 
     #footer {
