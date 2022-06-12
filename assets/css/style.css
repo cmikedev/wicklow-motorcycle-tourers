@@ -35,7 +35,8 @@ h1 {
 
 #welcome-box {
     left: 15%;
-    width: 70%;
+    width: 40%;
+    height: auto;
     background-color: #f8f9fb;
     position: absolute;
     opacity: 80%;
@@ -43,8 +44,36 @@ h1 {
 
 #welcome-text {
     display: inline-block;
-    padding: 5%;
+    padding: 2%;
 }
 
+#welcome-text h2, #welcome-text h3, #welcome-text p {
+    padding: 2%;
+}
 
+#welcome-text p {
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
 
+#rides-page-link {
+    margin: 15px auto;
+    padding: 10px;
+    width: 33%;
+    display: block;
+    text-align: center;
+    font-size: 110%;
+    border: 2px solid black;
+    background-color: black;
+    color: #f8f9fb;
+    text-decoration: none;
+    font-family: Lobster, Helvetica;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#rides-page-link:hover {
+    background-color: white;
+    color: #415161;
+}
