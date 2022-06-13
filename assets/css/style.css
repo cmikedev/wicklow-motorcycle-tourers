@@ -355,6 +355,10 @@ footer p {
 
 /* THANK YOU PAGE */
 
+#thank-you-container {
+    background-color: #f8f9fb;
+}
+
 #thank-you a {
     display: flex;
     align-items: center;
@@ -363,8 +367,14 @@ footer p {
     width: 100%;
 }
 
-#thank-you-container {
-    background-color: white;
+#thank-you-title {
+    font-family: Lobster, Helvetica, sans-serif;
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
 }
 
 #thank-you-image {
