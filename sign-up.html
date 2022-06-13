@@ -18,11 +18,14 @@
         </a>
         <nav>
             <ul id="menu">
-                <li>
+                <li class="home">
                     <a href="index.html" class="menu-clicked">Home</a>
                 </li>
                 <li class="rides">
                     <a href="rides.html" class="menu-clicked"> Rides</a>
+                </li>
+                <li class="bike-shed">
+                    <a href="bike-shed.html" class="menu-clicked"> Bike Shed</a>
                 </li>
                 <li class="sign-up">
                     <a href="sign-up.html" class="menu-clicked">Sign Up</a>
@@ -31,6 +34,44 @@
         </nav>
     </header>
     <section>
+        <div id="sign-up-box-container">
+            <div>
+                <video id="sign-up-page-video" src="assets/videos/sign-up-page-video.mp4" muted loop autoplay controls>
+                    Your browser doesn't support videos.
+                </video>
+            </div>
+            <div id="sign-up-box">
+                <div id="sign-up-box-text">
+                    <h1>Let's go!</h1>
+                    <p>Fill out the form below and keep up to date with all the happenings with 
+                        the Wicklow Motorcycle Tourers</p>
+                    <hr>
+                    <div id="sign-up-form">
+                        <form>
+                            <div class="form">
+                                <label class="label" for="fname">First Name:</label><br>
+                                <input class="input" type="text" placeholder="Enter First Name" name="fname" required>
+                            </div>
+                            <div class="form">
+                                <label class="label" for="lname">Surname:</label><br>
+                                <input class="input" type="text" placeholder="Enter Last Name" name="lname" required>
+                            </div>
+                            <div class="form">
+                                <label class="label" for="email">Email:</label><br>
+                                <input class="input" type="email" placeholder="Enter Email" name="email" required>
+                            </div>
+                            <div class="form">
+                                <a class="promoted-page-link" href="thank-you.html" target="_blank">
+                                    Sign Up!
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<section>
         <div id="sign-up-video-container">
             <video id="sign-up-video" src="assets/videos/sign-up-page-video.mp4" muted loop autoplay>
                 Your browser doesn't support videos.
@@ -65,7 +106,7 @@
                 </div>  
             </form>
         </div>
-    </section>
+    </section>-->
     <section>
     </section>
     <footer>
@@ -73,6 +114,10 @@
             <li>
                 <a href="https://github.com/cmikedev" target="_blank" rel="noopener" 
                 aria-label="Visit our Github page (opens in a new tab)"><i class="fab fa-github-square"></i></a>
+            </li>
+            <li>
+                <a href="#" target="_blank" rel="noopener" 
+                aria-label="Contact us on Slack (opens in a new tab)"><i class="fab fa-slack"></i></a>
             </li>
             <li>
                 <a href="https://linkedin.com/in/michael-carberry-8a514b239" target="_blank" rel="noopener" 
