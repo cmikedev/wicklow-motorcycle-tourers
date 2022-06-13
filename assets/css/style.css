@@ -147,7 +147,6 @@ body.sign-up li.sign-up a {
 /* welcome text */
 
 #welcome-text-container {
-    position: relative;
     max-width: 100%;
     overflow: hidden;
     text-align: left;
@@ -155,6 +154,7 @@ body.sign-up li.sign-up a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #f8f9fb;
 }
 
 /* FOOTER */
