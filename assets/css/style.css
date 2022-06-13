@@ -457,7 +457,7 @@ footer p {
 
 @media screen and (max-width: 490px) {
     header{
-        height: auto;
+        height: 125px;
     }
 
     #logo {
@@ -477,6 +477,14 @@ footer p {
     }
 }
 
+/* social media links size to decrease to stay in row */
+
+@media screen and (max-width: 460px) {
+    #social-media i {
+        font-size: 100%;
+        justify-content: space-between;
+    }
+}
 
 /* for screen sizes 450px wide or less */
 
@@ -500,16 +508,6 @@ footer p {
 
     #footer {
         height: 50px;
-    }
-
-    #social-media i {
-        margin: 5px;
-        padding: 2%;
-        color: #415161;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-between;
     }
     
     footer p {
