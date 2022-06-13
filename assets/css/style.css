@@ -150,11 +150,27 @@ body.sign-up li.sign-up a {
     max-width: 100%;
     overflow: hidden;
     text-align: left;
+    left: 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     background-color: #f8f9fb;
+}
+
+#welcome-text {
+    padding: 4%;
+}
+
+#welcome-text p {
+    font-style: italic;
+}
+
+#welcome-text h3, #welcome-text h4 {
+    font-family: Lobster, Helvetica, sans-serif;
+}
+
+#welcome-text h3, #welcome-text h4, #welcome-text p {
+    padding: 2%;
 }
 
 /* FOOTER */
