@@ -353,7 +353,70 @@ footer p {
     color: #415161;
 }
 
+/* THANK YOU PAGE */
 
+#thank-you a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+}
+
+#thank-you-container {
+    background-color: white;
+}
+
+#thank-you-image {
+    top: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+#thank-you-text h2 {
+    font-family: Lobster, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#thank-you-text h5 {
+    font-family: Lobster, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+}
+
+#thank-you-text a {
+    margin: 15px auto;
+    padding: 10px;
+    width: 90px;
+    display: block;
+    text-align: center;
+    font-size: 110%;
+    border: 2px solid black;
+    background-color: #222722;
+    color: #f8f9fb;
+    text-decoration: none;
+    font-family: Lobster, Helvetica;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+#thank-you-text a:hover {
+    color: #415161;
+    background-color: white;
+    border: 2px solid black;
+}
 
 /* MEDIA QUERIES */
 
