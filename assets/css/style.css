@@ -159,18 +159,17 @@ body.sign-up li.sign-up a {
 
 #welcome-text {
     padding: 4%;
-}
-
-#welcome-text p {
-    font-style: italic;
-}
-
-#welcome-text h3, #welcome-text h4 {
     font-family: Lobster, Helvetica, sans-serif;
 }
 
-#welcome-text h3, #welcome-text h4, #welcome-text p {
-    padding: 2%;
+#welcome-text p {
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#welcome-text h3, #welcome-text p {
+    padding: 1%;
+    left: 30px;
 }
 
 /* FOOTER */
