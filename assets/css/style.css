@@ -239,7 +239,7 @@ footer p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    padding: 4%;
 }
 
 /* location */
@@ -280,8 +280,7 @@ footer p {
 #map {
     float: right;
     margin-right: 30px;
-    padding-top: 4%;
-    padding-bottom: 2%;
+    padding: 4%;
     overflow: hidden;
     width: fit-content;
 }
