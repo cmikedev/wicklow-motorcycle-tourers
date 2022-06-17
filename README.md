@@ -167,15 +167,33 @@ Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic n
 
 ## Deployment
 
+### Deploying the repository via GitHub
 * The website was deployed using GitHub pages via the following steps:
-* In the Respository section, select the [wicklow-motorcycle-tourers](https://github.com/cmikedev/wicklow-motorcycle-tourers) repository
-* From the horizontal menu above the repository contents select __Settings__
-* From the left-hand vertical menu, go to the __code and automation__ section and select __pages__
-* From the __Source__ selection drop-down, select __Branch__ > __main__
-* The page will then automatically refresh displaying a ribbon indicating deployment status<br />
-<br />
-The deployed website can be found here - https://cmikedev.github.io/wicklow-motorcycle-tourers/<br />
-<br />
+    * In the Respository section, select the [wicklow-motorcycle-tourers](https://github.com/cmikedev/wicklow-motorcycle-tourers) repository
+    * From the horizontal menu above the repository contents select __Settings__
+    * From the left-hand vertical menu, go to the __code and automation__ section and select __pages__
+    * From the __Source__ selection drop-down, select __Branch__ > __main__
+    * The page will then automatically refresh displaying a ribbon indicating deployment status<br />
+    <br />
+    The deployed website can be found here - https://cmikedev.github.io/wicklow-motorcycle-tourers/<br />
+    <br />
+
+### Forking the repository
+* The GitHub repository can be forked to make a copy of the original. This copy can then be viewed or changed without affecting the original repository via the following steps:
+    * In the Respository section, select the [wicklow-motorcycle-tourers](https://github.com/cmikedev/wicklow-motorcycle-tourers) repository
+    * At the top right of the page select __fork__ from the menu below your profile
+    * A copy of the repository will now be created in your account
+
+### Creating a local clone
+* To create a local clone via GitHub:
+    * In the Respository section, select the [wicklow-motorcycle-tourers](https://github.com/cmikedev/wicklow-motorcycle-tourers) repository
+    * From the horizontal menu above the repository contents select __Code__
+    * __Copy__ the link that that is shown
+    * Within __Gitpod__ change the directory to where you would like the location of the cloned directory to be
+    * Type __git clone__ and paste the link that you copied
+    * Press __Enter__ and the local clone will be created<br />
+    <br />
+
 
 
 ## Credits
