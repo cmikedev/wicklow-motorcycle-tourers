@@ -99,22 +99,25 @@ https://github.com/cmikedev/wicklow-motorcycle-tourers
     ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/footer-screenshot.png)
     &nbsp;
 
+
 * ### The Sign Up Form
-    * The sign up form is located on the [Sign Up](https://cmikedev.github.io/wicklow-motorcycle-tourers/sign-up.html)page.
+    * The sign up form is located on the [Sign Up](https://cmikedev.github.io/wicklow-motorcycle-tourers/sign-up.html) page.
     * It allows the user to get signed up and be kept abreast of all ride information.
-    * The form requires the user to input their first name, last name and their email before submitting.
+    * The form requires the user to input their first name, last name and their email before submitting.<br />
+    <br />
 
 * ### The "Thank You" Page
     * The "Thank You" page is accessed once a user has filled out all required fields in the sign up form and submitted.
     * The page opens in a new window thereby not disrupting the users access to the main site.
-    * The "Thank You" page has purposely been designed to be minimalistic with many elements such as the header and footer being removed. A central image is added in place of a video to retain the minimalism but also the sense of motion.
+    * The "Thank You" page has purposely been designed to be minimalistic with many elements such as the header and footer being removed. 
+    * A central image is added in place of a video to retain the minimalism but also the sense of motion.
     * The aim of this page is to: 
         * acknowledge the user providing their details
         * confirm that they have been received
         * direct them back to the main site via a link which opens in a new browser
     
     &nbsp;
-    ![image]()
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/thank-you-page-screenshot.png)
     &nbsp;
 
 
