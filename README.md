@@ -106,7 +106,7 @@ https://github.com/cmikedev/wicklow-motorcycle-tourers
     * The form requires the user to input their first name, last name and their email before submitting.<br />
     <br />
 
-* ### The "Thank You" Page
+* ### The Thank You Page
     * The "Thank You" page is accessed once a user has filled out all required fields in the sign up form and submitted.
     * The page opens in a new window thereby not disrupting the users access to the main site.
     * The "Thank You" page has purposely been designed to be minimalistic with many elements such as the header and footer being removed. 
@@ -122,7 +122,15 @@ https://github.com/cmikedev/wicklow-motorcycle-tourers
 
 
 
-### Structure
+## Testing
+
+### Validator Testing
+
+* HTML
+* CSS
+
+
+
 The navigation bar at the top is minimalistic and clear, enabling users to easily navigate to each page and highlighting the page that they are on. 
 
 Each page contains a video which was chosen to create a sense of motion through the site and elicit a desire in the user to get onto their bikes. The text boxes overlaying these are relatively opaqe and off-set so as to be obvious, legible but not interfere with the sense of motion created by the video. Each text box contains a link to the next page.
