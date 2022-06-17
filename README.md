@@ -33,6 +33,7 @@ https://github.com/cmikedev/wicklow-motorcycle-tourers
 
     * Each page contains a video which was chosen to create a sense of motion through the site and elicit a sense of companionship and belonging and a desire in the user to get onto their bikes, thus going to the sign up page.<br />
     <br />
+    
     #### Home page video
     &nbsp;
     ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/front-page-video-screenshot.png)
@@ -72,12 +73,12 @@ https://github.com/cmikedev/wicklow-motorcycle-tourers
     <br />
     #### Home page
     &nbsp;
-    ![image]()
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/front-page-information-screenshot.png)
     &nbsp;
 
     #### Rides page
     &nbsp;
-    ![image]()
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/rides-page-information-screenshot.png)
     &nbsp;
 
 ### Structure
