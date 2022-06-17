@@ -7,8 +7,10 @@ ____
 
 ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/am-i-responsive-screenshot.png)
 
+
 ## Deployed Website
 [Wicklow Motorcycle Tourers](https://cmikedev.github.io/wicklow-motorcycle-tourers/)
+
 
 ## Repository
 https://github.com/cmikedev/wicklow-motorcycle-tourers
@@ -22,38 +24,61 @@ https://github.com/cmikedev/wicklow-motorcycle-tourers
 
     • This allows the user to navigate across the website without having to use their browser's back button. The page name in the navigation bar is underlined when the user hovers over that page and is permanently underlined when a user is on that page allowing them to easily see where they are.
 
-    ![image]()
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/navbar-screenshot.png)
+    &nbsp;
+
 
 * ### Page Videos
 
-    * Each page contains a video which was chosen to create a sense of motion through the site and elicit a sense of companionship and belonging and a desire in the user to get onto their bikes, thus going to the sign up page.
+    * Each page contains a video which was chosen to create a sense of motion through the site and elicit a sense of companionship and belonging and a desire in the user to get onto their bikes, thus going to the sign up page.<br />
+    <br />
+    #### Home page video
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/front-page-video-screenshot.png)
+    &nbsp;
 
-    * #### Home page video
-    ![image]()
+    #### Rides page video
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/rides-page-video-screenshot.png)
+    &nbsp;
 
-    * #### Rides page video
-    ![image]()
+    #### Bike Shed page video
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/bike-shed-page-video.png)
+    &nbsp;
 
-    * #### Bike Shed page video
-    ![image]()
-
-    * #### Sign up page video
-    ![image]()
+    #### Sign up page video
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/sign-up-page-video-screenshot.png)
+    &nbsp;
 
 
 * ### Main Text
 
     * Overlaying each video is a text box providing an introductory welcome to the section as well as a link to the next page facilitating the users journey to the sign up form. The text boxes overlaying the videos are relatively opaqe and off-set so as to be obvious, legible but not interfere with the sense of motion created by the video.
 
-    * #### Home page text box
-    ![image]()
-
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/front-page-text-box-screenshot.png)
+    &nbsp;
     * The 'Sign Up' page differs in that the text box which contains the sign up form is centred rather than off-set and is not opaque. This is because the user will have reached our intended destination and so the sign up form is styled to stand out over the video in order to capture and hold their attention.
 
-    * #### Sign up page text box
-    ![image]()
+    &nbsp;
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/sign-up-page-text-box-screenshot.png)
+    &nbsp;
 
-    
+* ### Information Section
+    * Below the video and main text on the "Home" and "Rides" pages is a section providing some more information about the Wicklow Motorcycle Tourers and in the case of the "Rides" page, ride times and an Embedded Google Map showing the meeting location.<br />
+    <br />
+    #### Home page
+    &nbsp;
+    ![image]()
+    &nbsp;
+
+    #### Rides page
+    &nbsp;
+    ![image]()
+    &nbsp;
 
 ### Structure
 The navigation bar at the top is minimalistic and clear, enabling users to easily navigate to each page and highlighting the page that they are on. 
