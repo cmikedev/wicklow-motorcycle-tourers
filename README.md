@@ -126,8 +126,24 @@ https://github.com/cmikedev/wicklow-motorcycle-tourers
 
 ### Validator Testing
 
-* HTML
-* CSS
+* W3C
+    * HTML
+        * There were no errors or warnings within the HTML when checked through The [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmikedev.github.io%2Fwicklow-motorcycle-tourers%2F)
+    * CSS
+        * There were no errors or warnings within the HTML when checked through The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+* Lighthouse (web.dev)
+    * Lighthouse through [web.dev](https://web.dev/) was used to test the site for: 
+        * Performance
+        * Accessibility
+        * Best Practice
+        * SEO
+    
+    
+    None of the results were below 90%
+    ![image]()
+
+    * The full test results can be found [here](https://web.dev/measure/?url=https%3A%2F%2Fcmikedev.github.io%2Fwicklow-motorcycle-tourers%2F)
 
 
 
