@@ -16,14 +16,22 @@ ____
 https://github.com/cmikedev/wicklow-motorcycle-tourers
 
 
+
 ## Structure
 
 * The site is divided into four pages sharing common features (as detailed below):
     * Home
     * Rides
     * Bike Shed
-    * Sign Up
+    * Sign Up<br />
+    <br />
 * There is an additional "Thank You" page which is only accessed once the sign up form is completed and submitted by the user.
+
+## Styling
+
+The colour palette is very subdued with only white, black and shades of grey being utilised. This was to frame the navigation, text and footer in a clear, clean way whilst maximising the sense of flow and engagement provided by the video.
+
+Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic nature of this font is one that is common to many motorcycle-centered websites, tshirts and other visuals and so might elicit a sense of familiarity to motorcycle riders.
 
 ## Features
 
@@ -64,7 +72,6 @@ https://github.com/cmikedev/wicklow-motorcycle-tourers
 
 
 * ### Main Text
-
     * Overlaying each video is a text box providing an introductory welcome to the section as well as a link to the next page facilitating the users journey to the sign up form. The text boxes overlaying the videos are relatively opaqe and off-set so as to be obvious, legible but not interfere with the sense of motion created by the video.
 
     &nbsp;
@@ -124,38 +131,69 @@ https://github.com/cmikedev/wicklow-motorcycle-tourers
 
 ## Testing
 
+### Responsiveness Testing
+
+* The responsiveness tests were carried out manually using Google Chrome's [Inspect Function](https://developer.chrome.com/docs/devtools/open/). Some of the devices tested included (but not limited to):
+    * Nest Hub Max
+    * iPad Mini
+    * Samsung Galaxy S8+
+    * iPhone SE <br />
+    <br />
+
+
 ### Validator Testing
 
-* W3C
+* #### W3C
     * HTML
         * There were no errors or warnings within the HTML when checked through The [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmikedev.github.io%2Fwicklow-motorcycle-tourers%2F)
     * CSS
-        * There were no errors or warnings within the HTML when checked through The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+        * There were no errors or warnings within the HTML when checked through The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)<br />
+        <br />
 
-* Lighthouse (web.dev)
+* #### Lighthouse (web.dev)
     * Lighthouse through [web.dev](https://web.dev/) was used to test the site for: 
         * Performance
         * Accessibility
         * Best Practice
-        * SEO
-    
-    
-    None of the results were below 90%
-    ![image]()
+        * SEO<br />
+        <br />
+    None of the results were below 90%<br />
+    <br />
+    ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/lighthouse-results-screenshot.png)<br />
+    <br />
+    * The full test results can be found [here](https://web.dev/measure/?url=https%3A%2F%2Fcmikedev.github.io%2Fwicklow-motorcycle-tourers%2F)<br />
+    <br />
 
-    * The full test results can be found [here](https://web.dev/measure/?url=https%3A%2F%2Fcmikedev.github.io%2Fwicklow-motorcycle-tourers%2F)
+
+## Deployment
+
+* The website was deployed using GitHub pages via the following steps:
+* In the Respository section, select the [wicklow-motorcycle-tourers](https://github.com/cmikedev/wicklow-motorcycle-tourers) repository
+* From the horizontal menu above the repository contents select __Settings__
+* From the left-hand vertical menu, go to the __code and automation__ section and select __pages__
+* From the __Source__ selection drop-down, select __Branch__ > __main__
+* The page will then automatically refresh displaying a ribbon indicating deployment status<br />
+<br />
+The deployed website can be found here - https://cmikedev.github.io/wicklow-motorcycle-tourers/<br />
+<br />
 
 
+## Credits
 
-The navigation bar at the top is minimalistic and clear, enabling users to easily navigate to each page and highlighting the page that they are on. 
+### Content
+* The favicon in the tile (page tab) was taken from [flaticon](https://www.flaticon.com/)
+* The icons in the footer were taken from [font awesome](https://fontawesome.com/)
+* The fonts were taken from [Google Fonts](https://fonts.google.com/)
+* Code from the [Love Running](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) project was utilised in the header, navigation, footer sections and social media links
 
-Each page contains a video which was chosen to create a sense of motion through the site and elicit a desire in the user to get onto their bikes. The text boxes overlaying these are relatively opaqe and off-set so as to be obvious, legible but not interfere with the sense of motion created by the video. Each text box contains a link to the next page.
+### Media
+* The background videos and background image were taken from [pexels](https://www.pexels.com/)
+* The map was taken from [Google Maps](https://www.google.com/maps)
 
-Below the videos there is also some additional information (with the exception of the 'Bike Shed' and 'Sign Up' pages) with a further link to the next page.
+### Research and Guidance
+* [Stackoverflow](https://stackoverflow.com/questions/20818881/use-video-as-background-for-div) was referenced for guidance on using a background video within a div container
 
-The 'Sign Up' page differs in that the text box which contains the sign up form is centred rather than off-set and is not opaque. This is because the user will have reached our intended destination and so the sign up form is styled to stand out over the video in order to capture and hold their attention.
+----
 
-### Styling
-The colour palette is very subdued with only white, black and shades of grey being utilised. This was to frame the navigation, text and footer in a clear, clean way whilst maximising the sense of flow and engagement provided by the video.
-
-Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic nature of this font is one that is common to many motorcycle-centered websites, tshirts and other visuals and so might elicit a sense of familiarity to motorcycle riders.
+## Acknowledgements
+I would like to thank my course mentor Harry Dhillon for providing guidance on this project as well as Daisy Gunn and Tasha Johnson for providing styling inspiration for the README.
