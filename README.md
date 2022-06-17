@@ -16,13 +16,21 @@ ____
 https://github.com/cmikedev/wicklow-motorcycle-tourers
 
 
+## Structure
+
+* The site is divided into four pages sharing common features (as detailed below):
+    * Home
+    * Rides
+    * Bike Shed
+    * Sign Up
+* There is an additional "Thank You" page which is only accessed once the sign up form is completed and submitted by the user.
+
 ## Features
 
 * ### Navigation Bar
+    * The navigation bar is featured on all pages where there is click-access. It is not featured on the "Thank You" page which is only accessed via completion of the sign up form.
 
-    • The navigation bar is featured on all pages where there is click-access. It is not featured on the "Thank You" page which is only accessed via completion of the sign up form.
-
-    • This allows the user to navigate across the website without having to use their browser's back button. The page name in the navigation bar is underlined when the user hovers over that page and is permanently underlined when a user is on that page allowing them to easily see where they are.
+    * This allows the user to navigate across the website without having to use their browser's back button. The page name in the navigation bar is underlined when the user hovers over that page and is permanently underlined when a user is on that page allowing them to easily see where they are.
 
     &nbsp;
     ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/navbar-screenshot.png)
@@ -71,6 +79,7 @@ https://github.com/cmikedev/wicklow-motorcycle-tourers
 * ### Information Section
     * Below the video and main text on the "Home" and "Rides" pages is a section providing some more information about the Wicklow Motorcycle Tourers and in the case of the "Rides" page, ride times and an Embedded Google Map showing the meeting location.<br />
     <br />
+
     #### Home page
     &nbsp;
     ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/front-page-information-screenshot.png)
@@ -80,6 +89,16 @@ https://github.com/cmikedev/wicklow-motorcycle-tourers
     &nbsp;
     ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/rides-page-information-screenshot.png)
     &nbsp;
+
+
+* ### The Footer
+    * The footer section contains social media links encouraging the user to connect and engage via social media.
+    * The social media links open in a new tab allowing easy navigation for the user.
+
+    &nbsp;
+    ![image]()
+    &nbsp;
+
 
 ### Structure
 The navigation bar at the top is minimalistic and clear, enabling users to easily navigate to each page and highlighting the page that they are on. 
