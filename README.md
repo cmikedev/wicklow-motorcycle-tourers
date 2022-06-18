@@ -25,7 +25,7 @@ https://github.com/cmikedev/wicklow-motorcycle-tourers
     * Bike Shed
     * Sign Up<br />
     <br />
-* There is an additional "Thank You" page which is only accessed once the sign up form is completed and submitted by the user.
+* There is an additional 'Thank You' page which is only accessed once the sign up form is completed and submitted by the user.
 
 ## Styling
 
@@ -36,7 +36,7 @@ Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic n
 ## Features
 
 * ### Navigation Bar
-    * The navigation bar is featured on all pages where there is click-access. It is not featured on the "Thank You" page which is only accessed via completion of the sign up form.
+    * The navigation bar is featured on all pages where there is click-access. It is not featured on the 'Thank You' page which is only accessed via completion of the sign up form.
 
     * This allows the user to navigate across the website without having to use their browser's back button. The page name in the navigation bar is underlined when the user hovers over that page and is permanently underlined when a user is on that page allowing them to easily see where they are.
 
@@ -84,7 +84,7 @@ Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic n
     &nbsp;
 
 * ### Information Section
-    * Below the video and main text on the "Home" and "Rides" pages is a section providing some more information about the Wicklow Motorcycle Tourers and in the case of the "Rides" page, ride times and an Embedded Google Map showing the meeting location.<br />
+    * Below the video and main text on the 'Home' and 'Rides' pages is a section providing some more information about the Wicklow Motorcycle Tourers and in the case of the 'Rides' page, ride times and an Embedded Google Map showing the meeting location.<br />
     <br />
 
     #### Home page
@@ -114,9 +114,9 @@ Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic n
     <br />
 
 * ### The Thank You Page
-    * The "Thank You" page is accessed once a user has filled out all required fields in the sign up form and submitted.
+    * The 'Thank You' page is accessed once a user has filled out all required fields in the sign up form and submitted.
     * The page opens in a new window thereby not disrupting the users access to the main site.
-    * The "Thank You" page has purposely been designed to be minimalistic with many elements such as the header and footer being removed. 
+    * The 'Thank You' page has purposely been designed to be minimalistic with many elements such as the header and footer being removed. 
     * A central image is added in place of a video to retain the minimalism but also the sense of motion.
     * The aim of this page is to: 
         * acknowledge the user providing their details
@@ -202,7 +202,7 @@ Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic n
 * The favicon in the tile (page tab) was taken from [flaticon](https://www.flaticon.com/)
 * The icons in the footer were taken from [font awesome](https://fontawesome.com/)
 * The fonts were taken from [Google Fonts](https://fonts.google.com/)
-* Code from the [Love Running](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) project was utilised in the header, navigation, footer sections and social media links
+* Code from the [Love Running](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) project was utilised in the navigation, footer sections and social media links
 
 ### Media
 * The background videos and background image were taken from [pexels](https://www.pexels.com/)
