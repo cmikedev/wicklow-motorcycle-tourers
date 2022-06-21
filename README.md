@@ -140,6 +140,15 @@ Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic n
     * iPhone SE <br />
     <br />
 
+* Testing on a real device (Samsung Galaxy S8) revealed that the footer social media links no longer lined up at that screen resolution.
+    * &nbsp;
+    ![image]()
+    &nbsp;
+
+* This was corrected and the footer social media links appeared in a row on the Samsung Galaxy S8.
+    * &nbsp;
+    ![image]()
+    &nbsp;s
 
 ### Validator Testing
 

@@ -503,8 +503,10 @@ footer p {
 
 @media screen and (max-width: 460px) {
     #social-media i {
+        margin: 5px;
+        padding: 10px;
         font-size: 100%;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
 }
 
