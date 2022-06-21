@@ -141,12 +141,14 @@ Of the fonts available on Google Fonts I chose 'Lobster'. The stylised, italic n
     <br />
 
 * Testing on a real device (Samsung Galaxy S8) revealed that the footer social media links no longer lined up at that screen resolution:
-    * &nbsp;
+    
+    &nbsp;
     ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/samsung-galaxy-s8-links-overflow-screenshot.jpg)
     &nbsp;
 
 * This was corrected and the footer social media links appear correctly in a row on the Samsung Galaxy S8:
-    * &nbsp;
+    
+    &nbsp;
     ![image](https://raw.githubusercontent.com/cmikedev/wicklow-motorcycle-tourers/main/assets/readme-images/samsung-galaxy-s8-links-corrected-screenshot.jpg)
     &nbsp;
 
